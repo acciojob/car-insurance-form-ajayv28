@@ -13,12 +13,12 @@
 		<input type="text" name="name" id="name" required><br>
 	<label for="email">Email</label><br>
 		<input type="email" name="email" id="email" required><br>
-	<input type="radio" name="radio" id="gender">
-		<label for="radio">Male</label>
-	<input type="radio" name="radio" id="gender">
-		<label for="radio">Female</label><br>
+	<input type="radio" name="gender" id="gender" required>
+		<label for="gender">Male</label>
+	<input type="radio" name="gender" id="gender" required>
+		<label for="gender">Female</label><br>
     <label for="cars">Car Brands</label>
-        <select id="multiSelect" name="cars">
+        <select id="cars" name="cars">
             <option value="bmw">BMW</option>
             <option value="audi">Audi</option>
             <option value="mercedez">Mercedez</option>
@@ -30,6 +30,7 @@
 	<label for="password">Password</label><br>
 		<input type="password" name="password" id="password" required><br>	
 	<button type="submit">Submit Button</button>
+	</form>
     <script type="text/javascript" src="./script.js">
 </script>
 
